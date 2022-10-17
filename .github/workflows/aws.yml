@@ -3,11 +3,13 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        options:
-            - dev
         description: Environment
         default: dev
         required: true
+        
+defaults:
+  run:
+    working-directory: helm
 jobs:
   bump-version:
     name: Bump Package Version
