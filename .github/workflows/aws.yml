@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       version:
+        options:
+            - dev
         description: Environment
         default: dev
         required: true
