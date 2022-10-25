@@ -9,7 +9,7 @@ on:
         
 defaults:
   run:
-    working-directory: ./12-helm
+    working-directory: ./12-hel
 jobs:
   bump-version:
     name: Bump Package Version
