@@ -6,13 +6,9 @@ on:
         description: Environment
         default: dev-env
         required: true
-      BRANCH:
-        description: 'Branch use'
-        required: true
-        default: 'dev'
-  push:
-   branches:
-     - dev
+      
+     
+
      
         
 jobs:
